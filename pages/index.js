@@ -99,7 +99,7 @@ export default function Home() {
 
         <section id='Resume'>
           <h2>Resume</h2>
-          <p>will be download resume or be link to resume</p>
+         
           <a href="/pictures/GA-resume.docx" download="GA-resume">
             <p>resume</p>
           </a>
@@ -114,12 +114,6 @@ export default function Home() {
 
         <h1>Tech Stack</h1>
         <h1>js, html, css, git, react, mysql, mongoDB</h1>
-
-        <footer>
-          <h2>footer</h2>
-          <h2>@etc</h2>
-          <h2>©</h2>
-        </footer>
 
       </main>
     </>
