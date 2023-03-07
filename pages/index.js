@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import React from "react"
+import { saveAs } from "file-saver"
+import { useRouter } from 'next/router'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,16 +22,16 @@ export default function Home() {
         <h1>Welcome to my portfolio + plus photo of myself or not</h1>
 
         <section id='About'>
-          <img 
+          <img
             src='/pictures/image.jpeg'
             alt='picture of myself'
           />
           <h2>I am Feu Matthew Her </h2>
-          
+
           <p>
 
-            I'm a full-stack developer who comes from the love of video games. My love for video games sparked an idea which brought me to coding.  So, I took 
-            some class about computer science and coding. This simple exposure got me hooked into coding. I think getting my first simple function to render got me hooked. 
+            I'm a full-stack developer who comes from the love of video games. My love for video games sparked an idea which brought me to coding.  So, I took
+            some class about computer science and coding. This simple exposure got me hooked into coding. I think getting my first simple function to render got me hooked.
             It was so fastinating, fun, and challenging to get my code to work.
             Now, I believe that I am just passionate about technology. Technology is an tool that has no limits and is constantly evolving. Just being about to work with tech would be great. Being able to
             implement my thoughts, ideas, and skills into a job would be my dream job. I graduated from a bootcamp to become a software engineer.
@@ -42,11 +45,11 @@ export default function Home() {
         <section id='Project'>
           <div id='background'>
             <h2>Project 1</h2>
-              <img 
-                src='/pictures/click-faster.png'
-                alt='project'
-                width='30%'
-              />
+            <img
+              src='/pictures/click-faster.png'
+              alt='project'
+              width='30%'
+            />
             <p>A game where you click the red target to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
 
 
@@ -57,16 +60,16 @@ export default function Home() {
               <p>LIVE SITE</p>
             </Link>
           </div>
-          
+
           <div id='background'>
             <h2>Project2 </h2>
-              <img 
-                src='/pictures/pkmn.png'
-                alt='project'
-                width='30%'
-              />
+            <img
+              src='/pictures/pkmn.png'
+              alt='project'
+              width='30%'
+            />
             <p>A website that allows pokemon fans to come together to talk to each other. You can create an account, favorite pokemon, talk to other users in world chat, and leave comments on each pokemon.</p>
-            
+
             <Link href='https://github.com/fmher/project-2'>
               <p>SEE CODE</p>
             </Link>
@@ -77,11 +80,11 @@ export default function Home() {
 
           <div id='background'>
             <h2>Project3</h2>
-              <img 
-                src='/pictures/group-project.png'
-                alt='project'
-                width='30%'
-              />
+            <img
+              src='/pictures/group-project.png'
+              alt='project'
+              width='30%'
+            />
             <p>This was a group project where we got a website display youtube reviews and displays how much each item is. Also displaying what category each item belongs too.</p>
             <Link href='https://github.com/fmher/project-3-client'>
               <p>SEE CODE</p>
@@ -97,11 +100,14 @@ export default function Home() {
         <section id='Resume'>
           <h2>Resume</h2>
           <p>will be download resume or be link to resume</p>
+          <a href="/pictures/GA-resume.docx" download="GA-resume">
+            <p>resume</p>
+          </a>
         </section>
 
         <section id='Contact'>
           <h2>Contact information</h2>
-          <p>phone number</p>
+          <p>email: feumatthewher2@gmail.com</p>
           <p>linkedin</p>
           <p>github</p>
         </section>
@@ -114,7 +120,7 @@ export default function Home() {
           <h2>@etc</h2>
           <h2>©</h2>
         </footer>
-        
+
       </main>
     </>
   )
