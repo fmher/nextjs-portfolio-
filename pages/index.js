@@ -21,40 +21,45 @@ export default function Home() {
       <main >
         
 
-        <section id='about'>
-          <div >
-            <h2 id='grid'>I am 
-              <h1 id='name'>Feu Matthew Her </h1>
-            </h2>
+        <section id='About'>
+          <div id='grid'>
+            <div id='size-small'>
+        
+               <h2 id='profile-name'> Feu Matthew Her </h2>
+              <p id='profile-p'>
+
+                I'm a full-stack developer who comes from the love of video games. My love for video games sparked 
+                an idea which brought me to coding. This simple exposure got me hooked into coding. I think getting
+                 my first simple function to render got me hooked.
+                It was so fastinating, fun, and challenging to get my code to work.
+                Now, I believe that I am just passionate about technology. Technology is an tool that has no limits
+                 and is constantly evolving. Just being able to work with tech would be great. Being able to
+                implement my thoughts, ideas, and skills into a job would be my dream job. I graduated from 
+                a bootcamp to become a software engineer.
+                I believe that my bootcamp experience and exposure will help me become a software engineer that can
+                thrive at any company.
+
+              </p>
+
+            </div>
             <img
               src='/pictures/image.jpeg'
               alt='picture of myself'
               id='picture'
             />
-          <p id='info'>
-
-            I'm a full-stack developer who comes from the love of video games. My love for video games sparked an idea which brought me to coding.  So, I took
-            some class about computer science and coding. This simple exposure got me hooked into coding. I think getting my first simple function to render got me hooked.
-            It was so fastinating, fun, and challenging to get my code to work.
-            Now, I believe that I am just passionate about technology. Technology is an tool that has no limits and is constantly evolving. Just being about to work with tech would be great. Being able to
-            implement my thoughts, ideas, and skills into a job would be my dream job. I graduated from a bootcamp to become a software engineer.
-            I believe that my bootcamp experience and exposure will help me become a software engineer that can
-            thrive at any company.
-
-          </p>
           </div>
           
 
 
         </section>
 
-        <section id='Project'>
+        <section id='Project' class='project-flex'>
           <div id='background'>
             
             <img
               src='/pictures/click-faster.png'
               alt='project'
-              width='30%'
+              width='90%'
             />
             <p>A game where you click the red target to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
 
@@ -72,7 +77,7 @@ export default function Home() {
             <img
               src='/pictures/pkmn.png'
               alt='project'
-              width='30%'
+              width='90%'
             />
             <p>A website that allows pokemon fans to come together to talk to each other. You can create an account, favorite pokemon, talk to other users in world chat, and leave comments on each pokemon.</p>
 
@@ -89,7 +94,7 @@ export default function Home() {
             <img
               src='/pictures/group-project.png'
               alt='project'
-              width='30%'
+              width='90%'
             />
             <p>This was a group project where we got a website display youtube reviews and displays how much each item is. Also displaying what category each item belongs too.</p>
             <Link href='https://github.com/fmher/project-3-client'>

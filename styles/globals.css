@@ -2,6 +2,8 @@
 selectors and media queries */
 html {
   background-color: #023047;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 h1, section, footer{
@@ -10,6 +12,8 @@ h1, section, footer{
 
 #picture {
   border-radius: 10%;
+  /* padding-right: 10%; */
+  width: 100%;
 }
 
 #background {
@@ -25,10 +29,42 @@ h1, section, footer{
   font-size: 20px;
 }
 
-#about {
+
+#grid {
   display: inline-flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 18%;
+  
 }
 
+#inline {
+  display: inline-flex;
+  /* width: auto; */
+}
+
+#im {
+  margin-right: 20%;
+  width: 120px;
+}
+
+#profile-name {
+  width: auto;
+  /* text-align: center; */
+  font-size: 90px;
+  
+}
+
+#profile-p {
+  /* margin: 10%; */
+  width: 90%;
+}
+
+.project-flex {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
 
 
 /* :root {
