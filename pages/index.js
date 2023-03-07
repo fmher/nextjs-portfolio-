@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +19,11 @@ export default function Home() {
         <h1>Welcome to my portfolio + plus photo of myself or not</h1>
 
         <section id='About'>
-          <h2>I am Feu Matthew Her + picture</h2>
+          <img 
+            src='/pictures/image.jpeg'
+            alt='picture of myself'
+          />
+          <h2>I am Feu Matthew Her </h2>
           
           <p>
 
@@ -35,14 +40,44 @@ export default function Home() {
         </section>
 
         <section id='Project'>
-          <h2>Project1 pic/thumbnail</h2>
-          <p>project 1 summary + tech used</p>
+          <div>
+            <h2>Project 1</h2>
+            <Link href='https://github.com/fmher/click-faster'>
+              <img 
+                src='/pictures/click-faster.png'
+                alt='project'
+                width='30%'
+              />
+            </Link>
+            <p>breif description of project</p>
 
-          <h2>Project2 pic/thumbnail</h2>
-          <p>project 2 summary +  tech used</p>
+          </div>
+          
+          <div>
+            <h2>Project2 pic/thumbnail</h2>
+            <Link href='https://github.com/fmher/project-2'>
+              <img 
+                src='/pictures/pkmn.png'
+                alt='project'
+                width='30%'
+              />
+            </Link>
+            <p>breif description of project</p>
 
-          <h2>Project3 pic/thumbnail</h2>
-          <p>project 3 summary + tech/used</p>
+          </div>
+
+          <div>
+            <h2>Project3 pic/thumbnail</h2>
+            <Link href='https://github.com/fmher/project-3-client'>
+              <img 
+                src='/pictures/group-project.png'
+                alt='project'
+                width='30%'
+              />
+            </Link>
+            <p>breif description of project</p>
+
+          </div>
 
         </section>
 

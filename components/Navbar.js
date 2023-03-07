@@ -6,7 +6,8 @@ export default function Navbar() {
         <nav>
             <Link href='/' id="color">
                 {/* Links take any child components */}
-                Home
+                Feu Matthew Her
+                Full-Stack Engineer
             </Link>
 
             {/* <Link href='/about'>
