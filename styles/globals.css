@@ -8,9 +8,15 @@ h1, section, footer{
   color: #FFB703;
 }
 
+#background {
+  background-color: aliceblue;
+}
+
 #color{
   color: white
 }
+
+
 
 /* :root {
   --max-width: 1100px;

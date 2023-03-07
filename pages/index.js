@@ -40,42 +40,55 @@ export default function Home() {
         </section>
 
         <section id='Project'>
-          <div>
+          <div id='background'>
             <h2>Project 1</h2>
-            <Link href='https://github.com/fmher/click-faster'>
               <img 
                 src='/pictures/click-faster.png'
                 alt='project'
                 width='30%'
               />
-            </Link>
-            <p>breif description of project</p>
+            <p>A game where you click the red target to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
 
+
+            <Link href='https://github.com/fmher/click-faster'>
+              <p>SEE CODE</p>
+            </Link>
+            <Link href='https://fmher.github.io/click-faster/'>
+              <p>LIVE SITE</p>
+            </Link>
           </div>
           
-          <div>
-            <h2>Project2 pic/thumbnail</h2>
-            <Link href='https://github.com/fmher/project-2'>
+          <div id='background'>
+            <h2>Project2 </h2>
               <img 
                 src='/pictures/pkmn.png'
                 alt='project'
                 width='30%'
               />
+            <p>A website that allows pokemon fans to come together to talk to each other. You can create an account, favorite pokemon, talk to other users in world chat, and leave comments on each pokemon.</p>
+            
+            <Link href='https://github.com/fmher/project-2'>
+              <p>SEE CODE</p>
             </Link>
-            <p>breif description of project</p>
-
+            <Link href='https://project-pokemon-fanbase.herokuapp.com/'>
+              <p>LIVE SITE</p>
+            </Link>
           </div>
 
-          <div>
-            <h2>Project3 pic/thumbnail</h2>
-            <Link href='https://github.com/fmher/project-3-client'>
+          <div id='background'>
+            <h2>Project3</h2>
               <img 
                 src='/pictures/group-project.png'
                 alt='project'
                 width='30%'
               />
+            <p>This was a group project where we got a website display youtube reviews and displays how much each item is. Also displaying what category each item belongs too.</p>
+            <Link href='https://github.com/fmher/project-3-client'>
+              <p>SEE CODE</p>
             </Link>
-            <p>breif description of project</p>
+            <Link href='https://stellular-horse-44ede4.netlify.app/'>
+              <p>LIVE SITE</p>
+            </Link>
 
           </div>
 
