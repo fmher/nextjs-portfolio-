@@ -1,11 +1,15 @@
 /* global.css affects everywhere --- here in this file we do 'pure' selectors ie element
 selectors and media queries */
 html {
-  background-color: hotpink;
+  background-color: #023047;
 }
 
-h1{
-  color: chartreuse;
+h1, section, footer{
+  color: #FFB703;
+}
+
+#color{
+  color: white
 }
 
 /* :root {

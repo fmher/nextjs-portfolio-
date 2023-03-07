@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <nav>
-            <Link href='/'>
+            <Link href='/' id="color">
                 {/* Links take any child components */}
                 Home
             </Link>
@@ -17,19 +17,19 @@ export default function Navbar() {
                 Projects
             </Link> */}
 
-            <Link href='#About'>
+            <Link href='#About' id="color">
                 About
             </Link>
 
-            <Link href='#Project'>
+            <Link href='#Project' id="color">
                 Project
             </Link>
 
-            <Link href='#Resume'>
+            <Link href='#Resume' id="color">
                 Resume
             </Link>
 
-            <Link href='#Contact'>
+            <Link href='#Contact' id="color">
                 Contact
             </Link>
 

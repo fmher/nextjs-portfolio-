@@ -15,16 +15,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Welcome to my portfolio</h1>
+        <h1>Welcome to my portfolio + plus photo of myself or not</h1>
 
         <section id='About'>
-          <h2>I am Feu Matthew Her</h2>
-          <p>breif summary about myself</p>
-          <p>What is my background? How/why did I get into Software Engineering?
-            What kind of skills do I have that will be useful for this role?
-            What are my interests and passions that line up with my target job and how can I relate my previous experience/projects to it?
-            What is it that's unique about me?
+          <h2>I am Feu Matthew Her + picture</h2>
+          
+          <p>
+
+            I'm a full-stack developer who comes from the love of video games. My love for video games sparked an idea which brought me to coding.  So, I took 
+            some class about computer science and coding. This simple exposure got me hooked into coding. I think getting my first simple function to render got me hooked. 
+            It was so fastinating, fun, and challenging to get my code to work.
+            Now, I believe that I am just passionate about technology. Technology is an tool that has no limits and is constantly evolving. Just being about to work with tech would be great. Being able to
+            implement my thoughts, ideas, and skills into a job would be my dream job. I graduated from a bootcamp to become a software engineer.
+            I believe that my bootcamp experience and exposure will help me become a software engineer that can
+            thrive at any company.
+
           </p>
+
         </section>
 
         <section id='Project'>
@@ -50,6 +57,9 @@ export default function Home() {
           <p>linkedin</p>
           <p>github</p>
         </section>
+
+        <h1>Tech Stack</h1>
+        <h1>js, html, css, git, react, mysql, mongoDB</h1>
 
         <footer>
           <h2>footer</h2>
