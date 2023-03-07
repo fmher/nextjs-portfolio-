@@ -9,8 +9,28 @@ export default function Navbar() {
                 Home
             </Link>
 
-            <Link href='/about'>
+            {/* <Link href='/about'>
                 About Meh
+            </Link>
+
+            <Link href='/projects'>
+                Projects
+            </Link> */}
+
+            <Link href='#About'>
+                About
+            </Link>
+
+            <Link href='#Project'>
+                Project
+            </Link>
+
+            <Link href='#Resume'>
+                Resume
+            </Link>
+
+            <Link href='#Contact'>
+                Contact
             </Link>
 
             {/* outside sources use regular a tags */}

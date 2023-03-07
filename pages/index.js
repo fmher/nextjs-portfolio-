@@ -17,7 +17,46 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Welcome to my portfolio</h1>
 
-        <p>I am Feu Matthew Her</p>
+        <section id='About'>
+          <h2>I am Feu Matthew Her</h2>
+          <p>breif summary about myself</p>
+          <p>What is my background? How/why did I get into Software Engineering?
+            What kind of skills do I have that will be useful for this role?
+            What are my interests and passions that line up with my target job and how can I relate my previous experience/projects to it?
+            What is it that's unique about me?
+          </p>
+        </section>
+
+        <section id='Project'>
+          <h2>Project1 pic/thumbnail</h2>
+          <p>project 1 summary + tech used</p>
+
+          <h2>Project2 pic/thumbnail</h2>
+          <p>project 2 summary +  tech used</p>
+
+          <h2>Project3 pic/thumbnail</h2>
+          <p>project 3 summary + tech/used</p>
+
+        </section>
+
+        <section id='Resume'>
+          <h2>Resume</h2>
+          <p>will be download resume or be link to resume</p>
+        </section>
+
+        <section id='Contact'>
+          <h2>Contact information</h2>
+          <p>phone number</p>
+          <p>linkedin</p>
+          <p>github</p>
+        </section>
+
+        <footer>
+          <h2>footer</h2>
+          <h2>@etc</h2>
+          <h2>©</h2>
+        </footer>
+        
       </main>
     </>
   )
