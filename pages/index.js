@@ -18,17 +18,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main >
         
 
-        <section id='About'>
-          <img
-            src='/pictures/image.jpeg'
-            alt='picture of myself'
-          />
-          <h2>I am Feu Matthew Her </h2>
-
-          <p>
+        <section id='about'>
+          <div >
+            <h2 id='grid'>I am 
+              <h1 id='name'>Feu Matthew Her </h1>
+            </h2>
+            <img
+              src='/pictures/image.jpeg'
+              alt='picture of myself'
+              id='picture'
+            />
+          <p id='info'>
 
             I'm a full-stack developer who comes from the love of video games. My love for video games sparked an idea which brought me to coding.  So, I took
             some class about computer science and coding. This simple exposure got me hooked into coding. I think getting my first simple function to render got me hooked.
@@ -39,12 +42,15 @@ export default function Home() {
             thrive at any company.
 
           </p>
+          </div>
+          
+
 
         </section>
 
         <section id='Project'>
           <div id='background'>
-            <h2>Project 1</h2>
+            
             <img
               src='/pictures/click-faster.png'
               alt='project'
@@ -62,7 +68,7 @@ export default function Home() {
           </div>
 
           <div id='background'>
-            <h2>Project2 </h2>
+            
             <img
               src='/pictures/pkmn.png'
               alt='project'
@@ -79,7 +85,7 @@ export default function Home() {
           </div>
 
           <div id='background'>
-            <h2>Project3</h2>
+            
             <img
               src='/pictures/group-project.png'
               alt='project'
