@@ -1,28 +1,51 @@
 /* global.css affects everywhere --- here in this file we do 'pure' selectors ie element
 selectors and media queries */
 html {
-  background-color: #023047;
+  background-color: #8ECAE6;
   padding-left: 20%;
   padding-right: 20%;
 }
 
 h1, section, footer{
-  color: #FFB703;
+  color: #023047;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  top: 0;
+  position: sticky;
+  background-color: #FB8500;
+  width: 100%;
+  padding: 4% 100% 3% 100%;
+  /* margin-left: -100%;
+  margin-right: -100%; */
+  margin: -5% -100% 0% -100%;
+  border-bottom: 40px #023047;
+  /* border-bottom */
 }
 
 #picture {
   border-radius: 10%;
-  /* padding-right: 10%; */
-  width: 100%;
+  height: 100%;
+  margin-top: 10%;
 }
 
 #background {
-  background-color: #f9f7f3;
-  color: black;
+  background-color: #FFB703;
+  color: #023047;
+  margin: 3%;
+  font-size: 20px;
 }
 
 #color{
-  color: white
+  color: white;
+  /* position: fixed; */
+  padding: 3%;
+  font-size: 20px;
+  width: 1px;
 }
 
 #name {
@@ -58,12 +81,18 @@ h1, section, footer{
 #profile-p {
   /* margin: 10%; */
   width: 90%;
+  font-size: 20px;
 }
 
 .project-flex {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+  
+}
+
+.btn {
+  color: #FF2E00;
 }
 
 

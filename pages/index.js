@@ -63,13 +63,15 @@ export default function Home() {
             />
             <p>A game where you click the red target to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
 
+            <div id='grid'>
+              <Link href='https://github.com/fmher/click-faster'>
+                <p class='btn'>SEE CODE</p>
+              </Link>
+              <Link href='https://fmher.github.io/click-faster/'>
+                <p>LIVE SITE</p>
+              </Link>
 
-            <Link href='https://github.com/fmher/click-faster'>
-              <p>SEE CODE</p>
-            </Link>
-            <Link href='https://fmher.github.io/click-faster/'>
-              <p>LIVE SITE</p>
-            </Link>
+            </div>
           </div>
 
           <div id='background'>

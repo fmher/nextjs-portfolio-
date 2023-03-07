@@ -1,13 +1,18 @@
 // import Link from next
 import Link from "next/link";
+// import '@/styles/globals.css'
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav 
+            // style={{
+            //     position: 'fixed',
+            //     background: 'red',
+            // }}
+        >
             <Link href='/' id="color">
                 {/* Links take any child components */}
                 Feu Matthew Her
-                Full-Stack Engineer
             </Link>
 
             {/* <Link href='/about'>
