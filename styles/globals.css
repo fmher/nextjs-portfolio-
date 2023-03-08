@@ -1,7 +1,7 @@
 /* global.css affects everywhere --- here in this file we do 'pure' selectors ie element
 selectors and media queries */
 html {
-  background-color: #8ECAE6;
+  background-color: white;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -39,11 +39,16 @@ button {
   /* display: inline-flex; */
 }
 
+/* p {
+  text-align: center;
+} */
+
 
 #picture {
   border-radius: 10%;
   height: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
 }
 
 #background {
@@ -70,7 +75,11 @@ button {
   display: inline-flex;
   justify-content: center;
   margin-top: 10%;
-  margin-bottom: 18%;
+  
+  border-color: black;
+  border-style: solid;
+  /* border: 100000px; */
+  border-width: 7px;
   
 }
 
@@ -95,13 +104,24 @@ button {
   /* margin: 10%; */
   width: 90%;
   font-size: 20px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: -5%;
 }
+
+#Resume, #Project {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+}
+
 
 .project-flex {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  
+  /* margin-top: 10%; */
+  margin: 10%;
 }
 
 .btn-position {
@@ -137,6 +157,9 @@ button {
   width: 30%;
 }
 
+.project-name {
+  text-align: center;
+}
 
 /* :root {
   --max-width: 1100px;
