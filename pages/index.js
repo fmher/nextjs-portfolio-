@@ -29,11 +29,11 @@ export default function Home() {
               <p id='profile-p'>
 
                 I'm a full-stack developer who comes from the love of video games. My love for video games sparked 
-                an interest which led me to coding. This simple exposure got me hooked intrigued. Creating a 
+                an interest which led me to coding. This simple exposure got me fascinated. 
+                Creating a 
                 simple function is what actually got me hooked.
                 It was so fastinating, fun, and challenging to get my code to work.
-                Now, I am just passionate about technology. Technology is an tool that has no limits
-                 and is constantly evolving. 
+                Now, I am just passionate about technology. 
                 I graduated from 
                 a bootcamp to become a software engineer.
                 I believe that my bootcamp experience and exposure will help me become a software engineer that can
@@ -74,7 +74,7 @@ export default function Home() {
 
             <p class='project-name'>Click-Faster</p>
 
-            <p>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
+            <p class='project-desc'>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
 
             <div class='btn-position'>
               
@@ -99,7 +99,7 @@ export default function Home() {
 
             <p class='project-name'>Pokemon Fandom</p>
 
-            <p>A website that allows pokemon fans to come together to talk to each other. You can create an account, favorite pokemon, talk to other users in the world chat, and leave comments on each pokemon.</p>
+            <p class='project-desc'>A website that allows pokemon fans to come together to talk to each other. You can create an account, favorite pokemon, talk to other users in the world chat, and leave comments on each pokemon.</p>
 
             <div class='btn-position'>
               <a href='https://github.com/fmher/project-2'>
@@ -122,7 +122,7 @@ export default function Home() {
 
             <p class='project-name'>Review N Price</p>
 
-            <p>This was a group project where we got a website to display youtube reviews and display how much each reviewed item cost. Also displaying what category each reviewed item belong too.</p>
+            <p class='project-desc'>This was a group project where we got a website to display youtube reviews and display how much each reviewed item cost. Also displaying what category each reviewed item belong too.</p>
 
             <div class='btn-position'>
               <a href='https://github.com/fmher/project-3-client'>
