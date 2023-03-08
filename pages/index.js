@@ -56,7 +56,7 @@ export default function Home() {
         <div id='Resume'>Resume</div>
 
         <section  class='btn-center'>
-          <a href="/pictures/updated-resume.docx" download="GA-resume">
+          <a href="/pictures/edited-resume.docx" download="GA-resume">
             <button>Download Resume</button>
           </a>
         </section>
