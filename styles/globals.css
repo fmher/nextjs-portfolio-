@@ -39,6 +39,7 @@ button {
   /* display: inline-flex; */
 }
 
+
 #picture {
   border-radius: 10%;
   height: 100%;
@@ -107,6 +108,13 @@ button {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+.btn-width {
+  width: 40%;
+  
 }
 
 .contact-position {

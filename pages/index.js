@@ -67,16 +67,18 @@ export default function Home() {
               alt='project'
               width='90%'
             />
-            <p>A game where you click the red target to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
+            <p>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
 
-            <div class='btn-postion'>
-              <a href='https://github.com/fmher/click-faster'>
-                <button >SEE CODE</button>
+            <div class='btn-position'>
+              
+              <a href='https://github.com/fmher/click-faster' >
+                <button class='btn-width'>SEE CODE</button>
               </a>
               <a href='https://fmher.github.io/click-faster/'>
-                <button>LIVE SITE</button>
+                <button class='btn-width'>LIVE SITE</button>
               </a>
             </div>
+
           </div>
 
 
@@ -89,12 +91,15 @@ export default function Home() {
             />
             <p>A website that allows pokemon fans to come together to talk to each other. You can create an account, favorite pokemon, talk to other users in world chat, and leave comments on each pokemon.</p>
 
-            <a href='https://github.com/fmher/project-2'>
-              <button>SEE CODE</button>
-            </a>
-            <a href='https://project-pokemon-fanbase.herokuapp.com/'>
-              <button>LIVE SITE</button>
-            </a>
+            <div class='btn-position'>
+              <a href='https://github.com/fmher/project-2'>
+                <button class='btn-width'>SEE CODE</button>
+              </a>
+              <a href='https://project-pokemon-fanbase.herokuapp.com/'>
+                <button class='btn-width'>LIVE SITE</button>
+              </a>
+            </div>
+
           </div>
 
           <div id='background'>
@@ -104,13 +109,19 @@ export default function Home() {
               alt='project'
               width='90%'
             />
+            
             <p>This was a group project where we got a website display youtube reviews and displays how much each item is. Also displaying what category each item belongs too.</p>
-            <a href='https://github.com/fmher/project-3-client'>
-              <p>SEE CODE</p>
-            </a>
-            <a href='https://stellular-horse-44ede4.netlify.app/'>
-              <p>LIVE SITE</p>
-            </a>
+
+            <div class='btn-position'>
+              <a href='https://github.com/fmher/project-3-client'>
+                <button class='btn-width'>SEE CODE</button>
+              </a>
+              <a href='https://stellular-horse-44ede4.netlify.app/'>
+                <button class='btn-width'>LIVE SITE</button>
+              </a>
+
+            </div>
+
 
           </div>
 
