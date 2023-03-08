@@ -117,17 +117,23 @@ export default function Home() {
         </section>
 
 
-        <section id='Contact'>
-          <h2>Contact information</h2>
-          <p>email: feumatthewher2@gmail.com</p>
-          <a href='https://www.linkedin.com/in/feu-her/'>Linkedin</a>
-          <p></p>
-          <a href='https://github.com/fmher'>Github</a>
+        <section id='Contact' >
+          <h2>Contact Information</h2>
+          <div class='contact-position'>
+            <h1>Email: feumatthewher2@gmail.com</h1>
+            <a href='https://www.linkedin.com/in/feu-her/'>
+              <img src='/pictures/linkedin.png' alt='linkedin' class='link-img'/>
+            </a>
+            <a href='https://github.com/fmher'>
+              <img src='/pictures/github.png' alt='github' class='github-img' />
+            </a>
+
+          </div>
           
         </section>
 
-        <h1>Tech Stack</h1>
-        <h1>js, html, css, git, react, mysql, mongoDB</h1>
+        <h2>Tech Stack</h2>
+        <h1>My current tech stack consists off Javascript, React, HTML, CSS, Git, SQL, mySQL, MongoDB, and Sequelize.</h1>
 
       </main>
     </>
