@@ -28,16 +28,14 @@ export default function Home() {
                <h2 id='profile-name'> Feu Matthew Her </h2>
               <p id='profile-p'>
 
-                I'm a full-stack developer who comes from the love of video games. My love for video games sparked 
-                an interest which led me to coding. This simple exposure got me fascinated. 
-                Creating a 
-                simple function is what actually got me hooked.
-                It was so fastinating, fun, and challenging to get my code to work.
-                Now, I am just passionate about technology. 
-                I graduated from 
-                a bootcamp to become a software engineer.
-                I believe that my bootcamp experience and exposure will help me become a software engineer that can
-                thrive at any company.
+              I am a full-stack developer who comes from the love of video games. My 
+              love for video games sparked an interest which led me to coding. This simple 
+              exposure got me fascinated. Creating a simple function is what actually got 
+              me hooked. It was so fascinating, fun, and challenging to get my code to work. 
+              Now, I am just passionate about technology. I graduated in March 2023 from 
+              General Assembly and am excited to begin my career as a software engineer. 
+              I believe that my bootcamp experience and exposure has built a solid 
+              foundation for me to become a software engineer that can thrive at any company.
 
               </p>
 
@@ -74,7 +72,7 @@ export default function Home() {
 
             <p class='project-name'>Click-Faster</p>
 
-            <p class='project-desc'>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than the score to beat. You lose if the timer reaches zero. </p>
+            <p class='project-desc'>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than "score to beat". You lose if the timer reaches zero. </p>
 
             <div class='btn-position'>
               
