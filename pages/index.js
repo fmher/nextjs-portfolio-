@@ -54,7 +54,7 @@ export default function Home() {
         <div id='Resume'>Resume</div>
 
         <section  class='btn-center'>
-          <a href="/pictures/edited-resume.docx" download="GA-resume">
+          <a href="/pictures/resume.docx" download="Resume">
             <button>Download Resume</button>
           </a>
         </section>
@@ -72,7 +72,7 @@ export default function Home() {
 
             <p class='project-name'>Click-Faster</p>
 
-            <p class='project-desc'>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than "score to beat". You lose if the timer reaches zero. </p>
+            <p class='project-desc'>A game where you click a red circle to increase your score while being timed. To beat the game your score has to be higher than the "score to beat". You lose if the timer reaches zero. </p>
 
             <div class='btn-position'>
               
