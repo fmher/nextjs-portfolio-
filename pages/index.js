@@ -28,14 +28,13 @@ export default function Home() {
                <h2 id='profile-name'> Feu Matthew Her </h2>
               <p id='profile-p'>
 
-              I am a full-stack developer who comes from the love of video games. My 
-              love for video games sparked an interest which led me to coding. This simple 
-              exposure got me fascinated. Creating a simple function is what actually got 
-              me hooked. It was so fascinating, fun, and challenging to get my code to work. 
-              Now, I am just passionate about technology. I graduated in March 2023 from 
-              General Assembly and am excited to begin my career as a software engineer. 
-              I believe that my bootcamp experience and exposure has built a solid 
-              foundation for me to become a software engineer that can thrive at any company.
+              IAs a full-stack developer, my passion for video games initially sparked my 
+              interest in coding. I was fascinated by the process of creating simple functions 
+              and the challenge of getting my code to work. This exposure led me to pursue a 
+              career in technology, which culminated in my graduation from General Assembly 
+              in March 2023. I am excited to begin my career as a software engineer and believe 
+              that my bootcamp experience has provided me with a solid foundation to 
+              thrive in any company.
 
               </p>
 
