@@ -28,7 +28,7 @@ export default function Home() {
                <h2 id='profile-name'> Feu Matthew Her </h2>
               <p id='profile-p'>
 
-              IAs a full-stack developer, my passion for video games initially sparked my 
+              As a full-stack developer, my passion for video games initially sparked my 
               interest in coding. I was fascinated by the process of creating simple functions 
               and the challenge of getting my code to work. This exposure led me to pursue a 
               career in technology, which culminated in my graduation from General Assembly 
