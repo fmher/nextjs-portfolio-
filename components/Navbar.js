@@ -4,23 +4,10 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav 
-            // style={{
-            //     position: 'fixed',
-            //     background: 'red',
-            // }}
-        >
-            <Link href='/' id="color">
+        <nav>
+            {/* <Link href='/' id="color"> */}
                 {/* Links take any child components */}
-                Feu Matthew Her
-            </Link>
-
-            {/* <Link href='/about'>
-                About Meh
-            </Link>
-
-            <Link href='/projects'>
-                Projects
+                {/* Feu Matthew Her
             </Link> */}
 
             <Link href='#About' id="color">
