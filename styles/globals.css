@@ -22,7 +22,8 @@ img {
 nav {
   top: 0;
   position: sticky;
-  background-color: #FB8500;
+  /* background-color: #4d4855; */
+  background-image: linear-gradient(150deg, #4d4855 0%, #000000 74%);
   width: 100%;
   padding: 4% 100% 3% 100%;
   /* margin-left: -100%;
